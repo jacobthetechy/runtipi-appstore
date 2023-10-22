@@ -16,7 +16,7 @@ PATH=/data/git/lfs
 
 [server]
 APP_DATA_PATH    = /data/gitea
-DOMAIN           = {{APP_HOST}}
+DOMAIN           = localhost
 SSH_DOMAIN       = {{APP_HOST}}
 HTTP_PORT        = 3000
 ROOT_URL         = https://{{APP_DOMAIN}}/
