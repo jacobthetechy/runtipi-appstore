@@ -16,10 +16,10 @@ PATH=/data/git/lfs
 
 [server]
 APP_DATA_PATH    = /data/gitea
-DOMAIN           = localhost
+DOMAIN           = {{APP_HOST}}
 SSH_DOMAIN       = {{APP_HOST}}
 HTTP_PORT        = 3000
-ROOT_URL         = https://{{APP_DOMAIN}}/
+ROOT_URL         = http://{{APP_DOMAIN}}/
 DISABLE_SSH      = false
 SSH_PORT         = 222
 SSH_LISTEN_PORT  = 222
